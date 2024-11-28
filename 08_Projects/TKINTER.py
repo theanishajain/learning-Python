@@ -74,7 +74,7 @@ lab_year.place(x=560,y=270,height=110,width=100)
 lab_year_txt=Label(clock,text='Year', font=('Time New Roman',20,'bold'),bg='#8B7765',fg="black")
 lab_year_txt.place(x=560,y=415,height=30,width=100)#40 + 110 + 45 = 195
 
-#setting up the day
+#setting up the day everytime
 lab_day=Label(clock,text='00', font=('Time New Roman',35,'bold'),bg='#8B7765',fg="black")
 lab_day.place(x=780,y=270,height=110,width=100)
 lab_day_txt=Label(clock,text='Day', font=('Time New Roman',20,'bold'),bg='#8B7765',fg="black")
